@@ -1,0 +1,3 @@
+# disable access to uploads directory.
+RewriteEngine on
+RewriteRule ^uploads/?$ - [F]
